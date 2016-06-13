@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scrabble Word Finder</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h3>Scrabble Word Finder</h3>
+</header>
+
+<div class="page-content">
+  <div class="wrapper">
+    <label for="letters">Letters</label>
+    <input type="text" id="letters"/>
+    <button onclick="findWords()">Find Words</button>
+    <pre id="words"></pre>
+  </div>
+</div>
+
+<script src="lib/ScrabbleWordList.js"></script>
+<script src="src/ScrabbleWordFinder.js"></script>
+<script src="src/index.js"></script>
+</body>
+
+</html>
